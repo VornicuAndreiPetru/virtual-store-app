@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazin Virtual - Admin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Magazin Virtual - Admin</h1>
+    <nav>
+        <ul>
+            <li><a href="#adaugare-produse">Adăugare Produse</a></li>
+            <li><a href="#adaugare-categorii">Adăugare Categorii</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="adaugare-produse">
+        <h2>Adăugare Produse</h2>
+        <form id="product-form">
+            <input type="text" id="product-name" placeholder="Nume produs" required>
+            <input type="number" id="product-price" placeholder="Preț produs" required>
+            <button type="submit">Adaugă Produs</button>
+        </form>
+    </section>
+
+    <section id="adaugare-categorii">
+        <h2>Adăugare Categorii</h2>
+        <form id="category-form">
+            <input type="text" id="category-name" placeholder="Nume categorie" required>
+            <button type="submit">Adaugă Categorie</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Magazin Virtual</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
